@@ -3,7 +3,7 @@ import React from 'react'
 
 function About() {
   return (
-    <section className="flex w-full bg-[#F7F7F7] py-24 md:px-36 ">
+    <section id="about" className="flex w-full bg-[#F7F7F7] py-24 md:px-36 ">
       <div className="align-center flex w-full flex-col justify-center px-36 md:w-2/3">
         <h2 className="mb-8 font-display text-7xl">Minust</h2>
         <p className="mb-6 max-w-[528px]">

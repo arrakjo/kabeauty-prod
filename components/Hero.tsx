@@ -3,7 +3,10 @@ import React from 'react'
 
 function Hero() {
   return (
-    <main className="flex h-screen w-full bg-[#121212] text-[#F7F7F7] ">
+    <main
+      id="home"
+      className="flex h-screen w-full bg-[#121212] text-[#F7F7F7] "
+    >
       <div className="flex w-1/2 flex-col items-center justify-center px-24 pb-10">
         <h3 className="mb-5 text-xl font-extralight text-[#C4C4C4] ">
           Makeup Artist
@@ -22,6 +25,7 @@ function Hero() {
           alt="Keidy Arrak"
           width={568}
           height={568}
+          className="pointer-events-none"
         />
       </div>
     </main>
