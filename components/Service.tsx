@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function Service({ title, src }) {
+function Service({ title, src }: { title: string; src: string }) {
   return (
     <div className="relative z-20 mx-0 flex w-max items-center justify-center">
       <Image
