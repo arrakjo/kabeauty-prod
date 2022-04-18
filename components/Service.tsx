@@ -11,7 +11,7 @@ function Service({ title, src }: { title: string; src: string }) {
         height={354}
         className="pointer-events-none"
       />
-      <h1 className="absolute z-30 font-service text-5xl uppercase text-[#F7F7F7] ">
+      <h1 className="absolute z-30 font-service text-3xl uppercase text-[#F7F7F7] md:text-4xl ">
         {title}
       </h1>
     </div>

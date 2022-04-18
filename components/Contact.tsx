@@ -3,16 +3,19 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="flex w-full items-center justify-center bg-[#F7F7F7] py-20">
+    <div
+      id="contact"
+      className="flex w-full items-center justify-center bg-[#F7F7F7] px-5 py-20 md:px-0"
+    >
       <div className="mx-auto w-full max-w-screen-xl px-4 py-8">
-        <h2 className="mb-8 font-display text-7xl">Kontakt</h2>
-        <p className="mb-10 max-w-[587x]">
+        <h2 className="mb-8 font-display text-5xl md:text-7xl">Kontakt</h2>
+        <p className="mb-10 max-w-[587x] text-sm md:text-base">
           Kui Sa soovid broneerida aega või küsida lisa, võta julgelt ühendust.
         </p>
         <div>
           <a
             href="mailto:keidyarrak@live.com"
-            className="mb-6 flex items-center font-light"
+            className="mb-6 flex max-w-[298px] items-center text-sm font-light md:text-base"
           >
             <span className="mr-8">
               <Image
@@ -27,7 +30,7 @@ function Contact() {
           </a>
           <a
             href="tel:+37256692189"
-            className="mb-6 flex items-center font-light"
+            className="mb-6 flex max-w-[298px] items-center text-sm font-light md:text-base"
           >
             <span className="mr-8">
               <Image
@@ -44,7 +47,7 @@ function Contact() {
             href="https://goo.gl/maps/kHFaSexNFmEePoKX9"
             target="_blank"
             rel="noopener noreferrer"
-            className="mb-6 flex items-center font-light"
+            className="mb-6 flex max-w-[298px] items-center text-sm font-light md:text-base"
           >
             <span className="mr-8">
               <Image
@@ -59,7 +62,9 @@ function Contact() {
           </a>
         </div>
         <div className="mt-20">
-          <p className="mb-10 max-w-[587x]">Leia mind sotsiaalmeedias</p>
+          <p className="mb-10 max-w-[587x] text-sm md:text-base">
+            Leia mind sotsiaalmeedias
+          </p>
           <div className="flex space-x-6">
             <a href="https://www.instagram.com/keidyarrak/" target="_blank">
               <Image
