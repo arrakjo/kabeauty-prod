@@ -7,6 +7,7 @@ module.exports = {
     fontFamily: {
       display: ['Waterfall', 'ui-serif', 'serif'],
       body: ['Montserrat', 'sans-serif'],
+      service: ['Cormorant Garamond', 'serif'],
     },
     extend: {},
   },

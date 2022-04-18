@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/About'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
@@ -18,6 +20,8 @@ const Home: NextPage = () => {
       <Hero />
       <About />
       <Services />
+      <Contact />
+      <Footer />
     </div>
   )
 }
